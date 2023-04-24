@@ -55,22 +55,8 @@ def licz(arr):
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    # t1, n1 = 2, 1
-    # t2, n2 = 2, 2
-    # t3, n3 = 0, 2
-    # I_P = zawartosc_informacyjna(t1 + t2 + t3, n1 + n2 + n3)
-    # I_P_1 = zawartosc_informacyjna(t1, n1)
-    # I_P_2 = zawartosc_informacyjna(t2, n2)
-    # I_P_3 = zawartosc_informacyjna(t3, n3)
-    #
-    # # E_P = entropia(t1 + n1, t2 + n2, I_P_1, I_P_2)
-    # E_Pmn = entropia_mn([t1 + n1, t2 + n2, t3 + n3], [I_P_1, I_P_2, I_P_3])
-    # g_P = zysk_informacji(I_P, E_Pmn)
-    # print("I(P1): ", I_P_1)
-    # print("I(P2): ", I_P_2)
-    # print("I(P3): ", I_P_3)
-    # print("E(P): ", E_Pmn)
-    # print("g(P): ", g_P)
-
-    licz([[2, 1], [2, 2], [0, 2]])
-    licz([[3, 1], [1, 4]])
+    
+    # SC
+    licz([[1, 3], [1, 0]])
+    # SAM
+    licz([[2, 2], [0, 1]])
